@@ -1,0 +1,25 @@
+my_project
+│
+├── node_modules
+├── server
+│   └── server.js
+├── my_dash (Vue app)
+│   ├── public
+│   │   └── index.html
+│   ├── src
+│   │   ├── components
+│   │   │   ├── WebTab
+│   │   │   |   |--AreaChart.vue
+│   │   │   └── CountryTab
+│   │   │   |   |--AreaChart.vue
+│   │   │   └── BaseElements.vue
+│   │   │   └── CountryTab.vue
+│   │   │   └── navBar.vue
+│   │   │   └── WebTab.vue
+│   │   ├── App.vue
+│   │   ├── main.js
+│   ├── package.json
+│   └── vue.config.js
+├── .env
+├── package.json
+└── yarn.lock

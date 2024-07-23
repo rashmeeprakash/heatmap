@@ -1,0 +1,75 @@
+{
+  "name": "voa-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@highcharts/map-collection": "^2.1.0",
+    "@popperjs/core": "^2.11.8",
+    "ag-grid-vue3": "^31.3.1",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "core-js": "^3.8.3",
+    "country-list": "^2.3.0",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.4.5",
+    "highcharts": "^11.4.6",
+    "highcharts-vue": "^2.0.1",
+    "os-browserify": "^0.3.0",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "require": "^2.4.20",
+    "stream-browserify": "^3.0.0",
+    "vm-browserify": "^1.1.2",
+    "vue": "^3.4.33",
+    "vue-axios": "^3.5.2",
+    "vue-jalali-moment": "^1.0.0",
+    "vue-multiselect": "^3.0.0-beta.3",
+    "vue-router": "^4.3.2",
+    "vue3-daterange-picker": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@types/bootstrap": "^5.2.10",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser",
+      "ecmaVersion": 2021,
+      "requireConfigFile": false
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
