@@ -1,12 +1,5 @@
 <template>
-  <SharedHeatMap
-    :chartData="chartData"
-    divisionProp="division"
-    serviceProp="service"
-    profileNameProp="account_url"
-    reportDateProp="report_date"
-    videoViewsProp="visits"
-  />
+  <SharedHeatMap :chartData="chartData" />
 </template>
 
 <script>
